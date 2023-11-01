@@ -38,7 +38,11 @@ public class Model {
 		
 		
 		double numOne=Double.parseDouble(String.join("",firstNumList));
-		double numTwo=Double.parseDouble(String.join("",secondNumList));
+		double numTwo=0;
+		if(secondNumList.size()>0)
+		{
+			numTwo=Double.parseDouble(String.join("",secondNumList));
+		}
 		double res=0;
 		switch(action)
 		{

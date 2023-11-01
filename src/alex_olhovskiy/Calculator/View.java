@@ -66,42 +66,6 @@ public class View {
 		
 		upperPanel.add(textField,BorderLayout.CENTER);
 		
-//		for(int i=0;i<(rows*columns);i++)
-//		{
-//			JButton button=new JButton(buttonNames[i]);
-//			button.setPreferredSize(new Dimension(bSize,bSize));
-//			//button.setActionCommand(""+i);
-//			if(i==4){
-//				button.addActionListener(new ActionListener() {
-//					public void actionPerformed(ActionEvent e) {
-//						sb.delete(0,sb.length());
-//						textField.setText(sb.toString());
-//					}
-//				});
-//			}
-//			else{
-//				if(i==17){
-//					button.addActionListener(new ActionListener() {
-//						public void actionPerformed(ActionEvent e) {
-//							System.out.println("Button '=' pressed");
-//							textField.setText(presenter.getString(sb.toString()));
-//						}
-//					});
-//				}
-//				else {
-//					button.addActionListener(new ActionListener() {
-//						public void actionPerformed(ActionEvent e) {
-//							System.out.println("Button "+button.getActionCommand()+" pressed");
-//							sb.append(button.getActionCommand());
-//							textField.setText(sb.toString());
-//						}
-//					});
-//				}
-//			}
-//			downPanel.add(button);
-//		}
-//		
-		
 		for(int i=0;i<(rows*columns);i++)
 		{
 			JButton button=new JButton(buttonNames[i]);
