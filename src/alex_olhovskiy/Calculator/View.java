@@ -78,6 +78,7 @@ public class View {
 							System.out.println("Button 'cos' pressed");
 							sb.append("c");
 							textField.setText(presenter.getString(sb.toString()));
+							sb.delete(0,sb.length());
 						}
 					});
 					break;
@@ -87,6 +88,7 @@ public class View {
 							System.out.println("Button 'acos' pressed");
 							sb.append("a");
 							textField.setText(presenter.getString(sb.toString()));
+							sb.delete(0,sb.length());
 						}
 					});
 					break;
@@ -96,6 +98,7 @@ public class View {
 							System.out.println("Button 'sin' pressed");
 							sb.append("s");
 							textField.setText(presenter.getString(sb.toString()));
+							sb.delete(0,sb.length());
 						}
 					});
 					break;
@@ -105,6 +108,7 @@ public class View {
 							System.out.println("Button 'asin' pressed");
 							sb.append("b");
 							textField.setText(presenter.getString(sb.toString()));
+							sb.delete(0,sb.length());
 						}
 					});
 					break;
@@ -114,6 +118,7 @@ public class View {
 							System.out.println("Button 'tg' pressed");
 							sb.append("t");
 							textField.setText(presenter.getString(sb.toString()));
+							sb.delete(0,sb.length());
 						}
 					});
 					break;
@@ -123,6 +128,7 @@ public class View {
 							System.out.println("Button 'atg' pressed");
 							sb.append("d");
 							textField.setText(presenter.getString(sb.toString()));
+							sb.delete(0,sb.length());
 						}
 					});
 					break;
@@ -140,6 +146,7 @@ public class View {
 						public void actionPerformed(ActionEvent e) {
 							System.out.println("Button '=' pressed");
 							textField.setText(presenter.getString(sb.toString()));
+							sb.delete(0,sb.length());
 						}
 					});
 					break;
